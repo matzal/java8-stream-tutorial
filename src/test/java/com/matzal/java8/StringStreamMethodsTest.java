@@ -1,14 +1,16 @@
 package com.matzal.java8;
 
-        import org.junit.jupiter.api.Assertions;
-        import org.junit.jupiter.api.BeforeEach;
-        import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-        import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.*;
 
-        import java.util.Arrays;
-        import java.util.List;
-        import java.util.NoSuchElementException;
+import java.util.Arrays;
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.function.Supplier;
+import java.util.stream.Stream;
 
 class StringStreamMethodsTest {
 
@@ -20,7 +22,7 @@ class StringStreamMethodsTest {
     }
 
     @Test
-    public void elementsStartWithTest() {
+    void elementsStartWithTest() {
         //given
         List<String> myList = Arrays.asList("Jan", "Tomek", "Anna", "Alicja", "Andrzej");
         //when
@@ -30,7 +32,7 @@ class StringStreamMethodsTest {
     }
 
     @Test
-    public void elementsStartWithNoSuchElementTest() {
+    void elementsStartWithNoSuchElementTest() {
         //given
         List<String> myList = Arrays.asList("Jan", "Tomek", "Anna", "Alicja", "Andrzej");
         StringStreamMethods stringStreamMethods = new StringStreamMethods();
@@ -67,5 +69,31 @@ class StringStreamMethodsTest {
         //when
         //then
         Assertions.assertThrows(NoSuchElementException.class, () -> stringStreamMethods.parseToIntAndFindMax(stringNumbers));
+    }
+
+    @Test
+    void stringStreamSupplierTest() {
+        //given
+        Supplier<Stream<String>> streamSupplier = stringStreamMethods.stringStreamSupplier("a",
+                "a1", "anna", "b", "c2", "adam");
+        //when
+        boolean firstTerminalOperation = streamSupplier.get().allMatch(s -> s.startsWith("a"));
+        boolean secondTerminalOperation = streamSupplier.get().allMatch(s -> s.startsWith("a"));
+        //then
+        assertThat(firstTerminalOperation).isEqualTo(true);
+        assertThat(secondTerminalOperation).isEqualTo(true);
+    }
+
+    @Test
+    void stringStreamSupplierTest_ListWithNull() {
+        //given
+        Supplier<Stream<String>> streamSupplier = stringStreamMethods.stringStreamSupplier("a",
+                "a1", "anna", "b", null, "c2", "adam");
+        //when
+        boolean firstTerminalOperation = streamSupplier.get().allMatch(s -> s.startsWith("a"));
+        boolean secondTerminalOperation = streamSupplier.get().allMatch(s -> s.startsWith("a"));
+        //then
+        assertThat(firstTerminalOperation).isEqualTo(true);
+        assertThat(secondTerminalOperation).isEqualTo(true);
     }
 }
