@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4858689a-39c3-4e42-af50-6f08b5d29ae2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matzal/java8/DoubleStreamMethods.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +30,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoubleStreamMethodsTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethodsTest.java">
+      <file leaf-file-name="PersonStreamMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonStreamMethodsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoubleStreamMethodsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethodsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -63,6 +86,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/matzal/java8/StringStreamMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/matzal/java8/StringStreamMethodsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java" />
       </list>
     </option>
   </component>
@@ -128,6 +154,15 @@
               <item name="stream-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="stream-tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="personExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stream-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,6 +210,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.matzal.java8.personExamples" />
+      <recent name="com.matzal.java8" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.matzal.java8" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -196,33 +235,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DoubleStreamMethodsTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.App" />
-      <module name="stream-tutorial" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.matzal.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PersonStreamMethodsTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DoubleStreamMethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonStreamMethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream-tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.matzal.java8.*" />
+          <option name="PATTERN" value="com.matzal.java8.personExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.matzal.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.DoubleStreamMethodsTest" />
+      <option name="PACKAGE_NAME" value="com.matzal.java8.personExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.personExamples.PersonStreamMethodsTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -234,42 +262,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StringStreamMethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonStreamMethodsTest.getNamesStartingWithTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream-tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.matzal.java8.*" />
+          <option name="PATTERN" value="com.matzal.java8.personExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.matzal.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.StringStreamMethodsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StringStreamMethodsTest.stringStreamSupplier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="stream-tutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.matzal.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.matzal.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.StringStreamMethodsTest" />
-      <option name="METHOD_NAME" value="stringStreamSupplier" />
+      <option name="PACKAGE_NAME" value="com.matzal.java8.personExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.personExamples.PersonStreamMethodsTest" />
+      <option name="METHOD_NAME" value="getNamesStartingWithTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -280,19 +285,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StringStreamMethodsTest.stringStreamSupplierTest_ListWithNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonStreamMethodsTest.getNamesStartingWithTest_ListWithNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream-tutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.matzal.java8.*" />
+          <option name="PATTERN" value="com.matzal.java8.personExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.matzal.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.StringStreamMethodsTest" />
-      <option name="METHOD_NAME" value="stringStreamSupplierTest_ListWithNull" />
+      <option name="PACKAGE_NAME" value="com.matzal.java8.personExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.personExamples.PersonStreamMethodsTest" />
+      <option name="METHOD_NAME" value="getNamesStartingWithTest_ListWithNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stream-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.matzal.java8.personExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.matzal.java8.personExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.personExamples.PersonStreamMethodsTest" />
+      <option name="METHOD_NAME" value="getPersonsByAgeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest_checkEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stream-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.matzal.java8.personExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.matzal.java8.personExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.personExamples.PersonStreamMethodsTest" />
+      <option name="METHOD_NAME" value="getPersonsByAgeTest_checkEntry" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -342,19 +393,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.DoubleStreamMethodsTest" />
-      <item itemvalue="JUnit.StringStreamMethodsTest.stringStreamSupplier" />
-      <item itemvalue="JUnit.StringStreamMethodsTest" />
-      <item itemvalue="JUnit.StringStreamMethodsTest.stringStreamSupplierTest_ListWithNull" />
+      <item itemvalue="JUnit.PersonStreamMethodsTest.getNamesStartingWithTest" />
+      <item itemvalue="JUnit.PersonStreamMethodsTest" />
+      <item itemvalue="JUnit.PersonStreamMethodsTest.getNamesStartingWithTest_ListWithNull" />
+      <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest" />
+      <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest_checkEntry" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DoubleStreamMethodsTest" />
-        <item itemvalue="JUnit.StringStreamMethodsTest" />
-        <item itemvalue="JUnit.StringStreamMethodsTest.stringStreamSupplierTest_ListWithNull" />
-        <item itemvalue="JUnit.StringStreamMethodsTest.stringStreamSupplier" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.PersonStreamMethodsTest" />
+        <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest_checkEntry" />
+        <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest" />
+        <item itemvalue="JUnit.PersonStreamMethodsTest.getNamesStartingWithTest_ListWithNull" />
+        <item itemvalue="JUnit.PersonStreamMethodsTest.getNamesStartingWithTest" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +424,7 @@
       <workItem from="1522610904943" duration="592000" />
       <workItem from="1522675900223" duration="80000" />
       <workItem from="1522676982228" duration="4784000" />
-      <workItem from="1522862353082" duration="907000" />
+      <workItem from="1522862353082" duration="6552000" />
     </task>
     <task id="LOCAL-00001" summary="test method elementsStartWith">
       <created>1522331641134</created>
@@ -410,43 +461,50 @@
       <option name="project" value="LOCAL" />
       <updated>1522695182061</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="move DoubleStreamMethods class to proper package">
+      <created>1522863605316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522863605316</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DoubleStreamMethodsTest_getIntValueAndPrintWithPrefixTest - 2018.03.31 at 17h 56m 06s.xml">
-      <configuration name="DoubleStreamMethodsTest.getIntValueAndPrintWithPrefixTest" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest - 2018.04.04 at 20h 32m 23s.xml">
+      <configuration name="PersonStreamMethodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleStreamMethodsTest_getIntValueAndPrintWithPrefixTest - 2018.03.31 at 17h 56m 52s.xml">
-      <configuration name="DoubleStreamMethodsTest.getIntValueAndPrintWithPrefixTest" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest - 2018.04.04 at 20h 53m 13s.xml">
+      <configuration name="PersonStreamMethodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleStreamMethodsTest - 2018.03.31 at 17h 58m 31s.xml">
-      <configuration name="DoubleStreamMethodsTest" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest - 2018.04.04 at 21h 01m 26s.xml">
+      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleStreamMethodsTest_getIntValueAndReturnWithPrefixTest_ListContainsNull - 2018.03.31 at 17h 58m 52s.xml">
-      <configuration name="DoubleStreamMethodsTest.getIntValueAndReturnWithPrefixTest_ListContainsNull" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest - 2018.04.04 at 21h 02m 29s.xml">
+      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DoubleStreamMethodsTest - 2018.03.31 at 17h 58m 58s.xml">
-      <configuration name="DoubleStreamMethodsTest" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest - 2018.04.04 at 21h 03m 04s.xml">
+      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringStreamMethodsTest_stringStreamSupplier - 2018.04.02 at 20h 47m 11s.xml">
-      <configuration name="StringStreamMethodsTest.stringStreamSupplier" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest - 2018.04.04 at 21h 03m 08s.xml">
+      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringStreamMethodsTest - 2018.04.02 at 20h 47m 16s.xml">
-      <configuration name="StringStreamMethodsTest" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest - 2018.04.04 at 21h 03m 31s.xml">
+      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringStreamMethodsTest_stringStreamSupplierTest_ListWithNull - 2018.04.02 at 20h 50m 01s.xml">
-      <configuration name="StringStreamMethodsTest.stringStreamSupplierTest_ListWithNull" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest - 2018.04.04 at 21h 04m 05s.xml">
+      <configuration name="PersonStreamMethodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringStreamMethodsTest_stringStreamSupplierTest_ListWithNull - 2018.04.02 at 20h 50m 37s.xml">
-      <configuration name="StringStreamMethodsTest.stringStreamSupplierTest_ListWithNull" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest - 2018.04.04 at 21h 07m 34s.xml">
+      <configuration name="PersonStreamMethodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringStreamMethodsTest - 2018.04.02 at 20h 51m 51s.xml">
-      <configuration name="StringStreamMethodsTest" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest_checkEntry - 2018.04.04 at 21h 15m 33s.xml">
+      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest_checkEntry" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24176000" />
+    <option name="totallyTimeSpent" value="29821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -454,6 +512,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32904884" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -461,11 +520,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32904884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32904884" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32904884" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27570695" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27570695" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -479,7 +538,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32904884" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -524,7 +582,8 @@
     <MESSAGE value="test method finding max from string numbers" />
     <MESSAGE value="test method returning int value of double with prefix (list of strings)" />
     <MESSAGE value="create method supplying stream and test it" />
-    <option name="LAST_COMMIT_MESSAGE" value="create method supplying stream and test it" />
+    <MESSAGE value="move DoubleStreamMethods class to proper package" />
+    <option name="LAST_COMMIT_MESSAGE" value="move DoubleStreamMethods class to proper package" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
@@ -839,6 +898,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethodsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -849,10 +926,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethodsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
