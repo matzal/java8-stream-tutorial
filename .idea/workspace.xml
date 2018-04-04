@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4858689a-39c3-4e42-af50-6f08b5d29ae2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/matzal/java8/StringStreamMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matzal/java8/StringStreamMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/matzal/java8/StringStreamMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/matzal/java8/StringStreamMethodsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matzal/java8/DoubleStreamMethods.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+              <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,23 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringStreamMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/StringStreamMethods.java">
+      <file leaf-file-name="DoubleStreamMethodsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethodsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringStreamMethodsTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/StringStreamMethodsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+            <state relative-caret-position="68">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -105,7 +91,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +154,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringStreamMethodsTest">
+  <component name="RunManager" selected="JUnit.DoubleStreamMethodsTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.matzal.java8.App" />
       <module name="stream-tutorial" />
@@ -364,11 +350,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DoubleStreamMethodsTest" />
         <item itemvalue="JUnit.StringStreamMethodsTest" />
         <item itemvalue="JUnit.StringStreamMethodsTest.stringStreamSupplierTest_ListWithNull" />
         <item itemvalue="JUnit.StringStreamMethodsTest.stringStreamSupplier" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.DoubleStreamMethodsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +372,8 @@
       <workItem from="1522608722088" duration="602000" />
       <workItem from="1522610904943" duration="592000" />
       <workItem from="1522675900223" duration="80000" />
-      <workItem from="1522676982228" duration="4572000" />
+      <workItem from="1522676982228" duration="4784000" />
+      <workItem from="1522862353082" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="test method elementsStartWith">
       <created>1522331641134</created>
@@ -416,13 +403,17 @@
       <option name="project" value="LOCAL" />
       <updated>1522512056590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create method supplying stream and test it">
+      <created>1522695182061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522695182061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DoubleStreamMethodsTest_getIntValueAndPrintWithPrefixTest - 2018.03.31 at 17h 49m 30s.xml">
-      <configuration name="DoubleStreamMethodsTest.getIntValueAndPrintWithPrefixTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DoubleStreamMethodsTest_getIntValueAndPrintWithPrefixTest - 2018.03.31 at 17h 56m 06s.xml">
       <configuration name="DoubleStreamMethodsTest.getIntValueAndPrintWithPrefixTest" configurationId="JUnit" />
     </history-entry>
@@ -450,9 +441,12 @@
     <history-entry file="StringStreamMethodsTest_stringStreamSupplierTest_ListWithNull - 2018.04.02 at 20h 50m 37s.xml">
       <configuration name="StringStreamMethodsTest.stringStreamSupplierTest_ListWithNull" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringStreamMethodsTest - 2018.04.02 at 20h 51m 51s.xml">
+      <configuration name="StringStreamMethodsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23057000" />
+    <option name="totallyTimeSpent" value="24176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -460,62 +454,62 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32904884" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32904884" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32904884" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32904884" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27249357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27570695" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32904884" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32904884" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32904884" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27570695" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32904884" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32904884" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32904884" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32904884" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,9 +523,37 @@
     <MESSAGE value="test method elementsStartWith - no such element" />
     <MESSAGE value="test method finding max from string numbers" />
     <MESSAGE value="test method returning int value of double with prefix (list of strings)" />
-    <option name="LAST_COMMIT_MESSAGE" value="test method returning int value of double with prefix (list of strings)" />
+    <MESSAGE value="create method supplying stream and test it" />
+    <option name="LAST_COMMIT_MESSAGE" value="create method supplying stream and test it" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/StringStreamMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/StringStreamMethodsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -552,7 +574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/DoubleStreamMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
@@ -586,7 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/DoubleStreamMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
@@ -620,7 +642,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/DoubleStreamMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
@@ -654,7 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/DoubleStreamMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
@@ -790,17 +812,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/DoubleStreamMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
@@ -810,27 +822,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethodsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/StringStreamMethodsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/StringStreamMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="578">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/StringStreamMethodsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethodsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
