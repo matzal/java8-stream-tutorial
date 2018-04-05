@@ -22,4 +22,10 @@ public class PersonStreamMethods {
                 .filter(Objects::nonNull)
                 .collect(Collectors.groupingBy(Person::getAge));
     }
+
+    Double getAverageAge(List<Person> personList) {
+        return personList.stream()
+                .filter(Objects::nonNull)
+                .collect(Collectors.averagingInt(Person::getAge));
+    }
 }

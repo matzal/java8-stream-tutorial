@@ -70,4 +70,13 @@ class PersonStreamMethodsTest {
         //then
         assertThat(personsWithAge12).containsExactly(DAVID);
     }
+
+    @Test
+    void getAverageAgeTest() {
+        //given
+        //when
+        Double averageAge = personStreamMethods.getAverageAge(samplePersons);
+        //then
+        assertThat(averageAge).isEqualTo(23.2);
+    }
 }
