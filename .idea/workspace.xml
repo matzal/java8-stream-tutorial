@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4858689a-39c3-4e42-af50-6f08b5d29ae2" name="Default" comment="get average age of persons list and test it (method)">
+    <list default="true" id="4858689a-39c3-4e42-af50-6f08b5d29ae2" name="Default" comment="get age statistics of persons list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java" afterDir="false" />
@@ -32,8 +32,8 @@
       <file leaf-file-name="PersonStreamMethods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+            <state relative-caret-position="-85">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +44,8 @@
       <file leaf-file-name="PersonStreamMethodsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            <state relative-caret-position="356">
+              <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -261,6 +261,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PersonStreamMethodsTest.getAgeStatisticsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stream-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.matzal.java8.personExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.matzal.java8.personExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.personExamples.PersonStreamMethodsTest" />
+      <option name="METHOD_NAME" value="getAgeStatisticsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="PersonStreamMethodsTest.getAverageAgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream-tutorial" />
       <extension name="coverage">
@@ -274,29 +297,6 @@
       <option name="PACKAGE_NAME" value="com.matzal.java8.personExamples" />
       <option name="MAIN_CLASS_NAME" value="com.matzal.java8.personExamples.PersonStreamMethodsTest" />
       <option name="METHOD_NAME" value="getAverageAgeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PersonStreamMethodsTest.getNamesStartingWithTest_ListWithNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="stream-tutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.matzal.java8.personExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.matzal.java8.personExamples" />
-      <option name="MAIN_CLASS_NAME" value="com.matzal.java8.personExamples.PersonStreamMethodsTest" />
-      <option name="METHOD_NAME" value="getNamesStartingWithTest_ListWithNull" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -393,18 +393,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.PersonStreamMethodsTest" />
-      <item itemvalue="JUnit.PersonStreamMethodsTest.getNamesStartingWithTest_ListWithNull" />
       <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest" />
       <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest_checkEntry" />
       <item itemvalue="JUnit.PersonStreamMethodsTest.getAverageAgeTest" />
+      <item itemvalue="JUnit.PersonStreamMethodsTest.getAgeStatisticsTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PersonStreamMethodsTest" />
+        <item itemvalue="JUnit.PersonStreamMethodsTest.getAgeStatisticsTest" />
         <item itemvalue="JUnit.PersonStreamMethodsTest.getAverageAgeTest" />
         <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest_checkEntry" />
         <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest" />
-        <item itemvalue="JUnit.PersonStreamMethodsTest.getNamesStartingWithTest_ListWithNull" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +424,7 @@
       <workItem from="1522675900223" duration="80000" />
       <workItem from="1522676982228" duration="4784000" />
       <workItem from="1522862353082" duration="6736000" />
-      <workItem from="1522952118501" duration="1188000" />
+      <workItem from="1522952118501" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="test method elementsStartWith">
       <created>1522331641134</created>
@@ -475,46 +475,54 @@
       <option name="project" value="LOCAL" />
       <updated>1522869437937</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="get average age of persons list and test it (method)">
+      <created>1522954247622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1522954247622</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonStreamMethodsTest - 2018.04.04 at 20h 53m 13s.xml">
+    <history-entry file="PersonStreamMethodsTest_getAverageAgeTest - 2018.04.05 at 20h 48m 01s.xml">
+      <configuration name="PersonStreamMethodsTest.getAverageAgeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonStreamMethodsTest - 2018.04.05 at 20h 48m 06s.xml">
       <configuration name="PersonStreamMethodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest - 2018.04.04 at 21h 01m 26s.xml">
-      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest - 2018.04.04 at 21h 02m 29s.xml">
-      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest - 2018.04.04 at 21h 03m 04s.xml">
-      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest - 2018.04.04 at 21h 03m 08s.xml">
-      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest - 2018.04.04 at 21h 03m 31s.xml">
-      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonStreamMethodsTest - 2018.04.04 at 21h 04m 05s.xml">
+    <history-entry file="PersonStreamMethodsTest - 2018.04.05 at 20h 48m 55s.xml">
       <configuration name="PersonStreamMethodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonStreamMethodsTest - 2018.04.04 at 21h 07m 34s.xml">
+    <history-entry file="PersonStreamMethodsTest - 2018.04.05 at 20h 49m 21s.xml">
       <configuration name="PersonStreamMethodsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonStreamMethodsTest_getPersonsByAgeTest_checkEntry - 2018.04.04 at 21h 15m 33s.xml">
-      <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest_checkEntry" configurationId="JUnit" />
+    <history-entry file="PersonStreamMethodsTest_getAgeStatisticsTest - 2018.04.05 at 20h 57m 11s.xml">
+      <configuration name="PersonStreamMethodsTest.getAgeStatisticsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonStreamMethodsTest - 2018.04.04 at 21h 15m 54s.xml">
+    <history-entry file="PersonStreamMethodsTest_getAgeStatisticsTest - 2018.04.05 at 20h 58m 19s.xml">
+      <configuration name="PersonStreamMethodsTest.getAgeStatisticsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonStreamMethodsTest_getAgeStatisticsTest - 2018.04.05 at 20h 58m 43s.xml">
+      <configuration name="PersonStreamMethodsTest.getAgeStatisticsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonStreamMethodsTest_getAgeStatisticsTest - 2018.04.05 at 20h 59m 30s.xml">
+      <configuration name="PersonStreamMethodsTest.getAgeStatisticsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonStreamMethodsTest_getAgeStatisticsTest - 2018.04.05 at 20h 59m 43s.xml">
+      <configuration name="PersonStreamMethodsTest.getAgeStatisticsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonStreamMethodsTest - 2018.04.05 at 20h 59m 55s.xml">
       <configuration name="PersonStreamMethodsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31193000" />
+    <option name="totallyTimeSpent" value="31808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -561,7 +569,8 @@
     <MESSAGE value="move DoubleStreamMethods class to proper package" />
     <MESSAGE value="create and test methods for persons" />
     <MESSAGE value="get average age of persons list and test it (method)" />
-    <option name="LAST_COMMIT_MESSAGE" value="get average age of persons list and test it (method)" />
+    <MESSAGE value="get age statistics of persons list" />
+    <option name="LAST_COMMIT_MESSAGE" value="get age statistics of persons list" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
@@ -897,8 +906,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="-85">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -907,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state relative-caret-position="356">
+          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
         </state>
       </provider>
     </entry>

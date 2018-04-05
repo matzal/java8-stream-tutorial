@@ -2,10 +2,7 @@ package com.matzal.java8.personExamples;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;
 
@@ -78,5 +75,15 @@ class PersonStreamMethodsTest {
         Double averageAge = personStreamMethods.getAverageAge(samplePersons);
         //then
         assertThat(averageAge).isEqualTo(23.2);
+    }
+
+    @Test
+    void getAgeStatisticsTest() {
+        //given
+        //when
+        IntSummaryStatistics statistics = personStreamMethods.getAgeStatistics(samplePersons);
+        //then
+        assertThat(statistics).hasFieldOrPropertyWithValue("count", 5L);
+        assertThat(statistics).hasFieldOrPropertyWithValue("average", 23.2);
     }
 }

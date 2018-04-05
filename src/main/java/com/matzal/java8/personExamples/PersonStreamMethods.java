@@ -2,6 +2,7 @@ package com.matzal.java8.personExamples;
 
 import com.sun.xml.internal.ws.util.StringUtils;
 
+import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -27,5 +28,11 @@ public class PersonStreamMethods {
         return personList.stream()
                 .filter(Objects::nonNull)
                 .collect(Collectors.averagingInt(Person::getAge));
+    }
+
+    IntSummaryStatistics getAgeStatistics(List<Person> personList) {
+        return personList.stream()
+                .filter(Objects::nonNull)
+                .collect(Collectors.summarizingInt(Person::getAge));
     }
 }
