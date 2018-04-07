@@ -86,4 +86,13 @@ class PersonStreamMethodsTest {
         assertThat(statistics).hasFieldOrPropertyWithValue("count", 5L);
         assertThat(statistics).hasFieldOrPropertyWithValue("average", 23.2);
     }
+
+    @Test
+    void getNamesOfPersonsOlderThan() {
+        //given
+        //when
+        String olderThan23 = personStreamMethods.getNamesOfPersonsOlderThan(samplePersons, 23);
+        //then
+        assertThat(olderThan23).isEqualTo("Peter and Pamela and Patrick are older than 23.");
+    }
 }

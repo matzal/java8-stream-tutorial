@@ -35,4 +35,12 @@ public class PersonStreamMethods {
                 .filter(Objects::nonNull)
                 .collect(Collectors.summarizingInt(Person::getAge));
     }
+
+    String getNamesOfPersonsOlderThan(List<Person> personList, int age) {
+        return personList.stream()
+                .filter(Objects::nonNull)
+                .filter(p -> p.getAge() >= age)
+                .map(Person::getName)
+                .collect(Collectors.joining(" and ", "", " are older than " + age + "."));
+    }
 }

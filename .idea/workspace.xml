@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4858689a-39c3-4e42-af50-6f08b5d29ae2" name="Default" comment="get age statistics of persons list">
+    <list default="true" id="4858689a-39c3-4e42-af50-6f08b5d29ae2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java" afterDir="false" />
@@ -20,7 +20,7 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="255">
               <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -32,8 +32,8 @@
       <file leaf-file-name="PersonStreamMethods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +44,8 @@
       <file leaf-file-name="PersonStreamMethodsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+            <state relative-caret-position="509">
+              <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -82,10 +82,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethodsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/matzal/java8/StringStreamMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/matzal/java8/StringStreamMethodsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java" />
       </list>
@@ -115,9 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,6 +186,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +307,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PersonStreamMethodsTest.getPersonsByAgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonStreamMethodsTest.getNamesOfPersonsOlderThan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stream-tutorial" />
       <extension name="coverage">
         <pattern>
@@ -319,7 +319,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.matzal.java8.personExamples" />
       <option name="MAIN_CLASS_NAME" value="com.matzal.java8.personExamples.PersonStreamMethodsTest" />
-      <option name="METHOD_NAME" value="getPersonsByAgeTest" />
+      <option name="METHOD_NAME" value="getNamesOfPersonsOlderThan" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -393,18 +393,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.PersonStreamMethodsTest" />
-      <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest" />
       <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest_checkEntry" />
       <item itemvalue="JUnit.PersonStreamMethodsTest.getAverageAgeTest" />
       <item itemvalue="JUnit.PersonStreamMethodsTest.getAgeStatisticsTest" />
+      <item itemvalue="JUnit.PersonStreamMethodsTest.getNamesOfPersonsOlderThan" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PersonStreamMethodsTest" />
+        <item itemvalue="JUnit.PersonStreamMethodsTest.getNamesOfPersonsOlderThan" />
         <item itemvalue="JUnit.PersonStreamMethodsTest.getAgeStatisticsTest" />
         <item itemvalue="JUnit.PersonStreamMethodsTest.getAverageAgeTest" />
         <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest_checkEntry" />
-        <item itemvalue="JUnit.PersonStreamMethodsTest.getPersonsByAgeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +424,8 @@
       <workItem from="1522675900223" duration="80000" />
       <workItem from="1522676982228" duration="4784000" />
       <workItem from="1522862353082" duration="6736000" />
-      <workItem from="1522952118501" duration="1803000" />
+      <workItem from="1522952118501" duration="2124000" />
+      <workItem from="1523121812335" duration="1456000" />
     </task>
     <task id="LOCAL-00001" summary="test method elementsStartWith">
       <created>1522331641134</created>
@@ -482,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522954247622</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="get age statistics of persons list">
+      <created>1522954869150</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522954869150</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -518,7 +526,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31808000" />
+    <option name="totallyTimeSpent" value="33585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -526,7 +534,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32904884" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -538,7 +545,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32904884" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27956298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.283419" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -552,6 +559,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32904884" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,6 +581,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="get age statistics of persons list" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/DoubleStreamMethodsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -896,7 +928,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="255">
           <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -906,8 +938,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/matzal/java8/personExamples/PersonStreamMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="135">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -916,8 +948,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/matzal/java8/personExamples/PersonStreamMethodsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+        <state relative-caret-position="509">
+          <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
         </state>
       </provider>
     </entry>
