@@ -2,16 +2,25 @@ package com.matzal.java8.personExamples;
 
 import com.sun.xml.internal.ws.util.StringUtils;
 
-import java.util.IntSummaryStatistics;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class PersonStreamMethods {
 
-    List<Person> getPersonsWithNameStarting(String nameStart, List<Person> inputList) {
-        return inputList.stream()
+    private final Collector<Person, StringJoiner, String> personNameCollector =
+            Collector.of(
+                    () -> new StringJoiner(" | "),
+                    (j, p) -> j.add(p.getName().toUpperCase()),
+                    (j1, j2) -> j1.merge(j2),
+                    StringJoiner::toString);
+
+    private Collector<Person, StringJoiner, String> getPersonNameCollector() {
+        return personNameCollector;
+    }
+
+    List<Person> getPersonsWithNameStarting(String nameStart, List<Person> personList) {
+        return personList.stream()
                 .filter(Objects::nonNull)
                 .filter(p -> p.getName()
                         .startsWith(StringUtils.capitalize(nameStart)))
@@ -51,5 +60,11 @@ public class PersonStreamMethods {
                         Person::getAge,
                         Person::getName,
                         (p1, p2) -> p1 + "; " + p2));
+    }
+
+    String getAllNamesUpperCase(List<Person> personList) {
+        return personList.stream()
+                .filter(Objects::nonNull)
+                .collect(getPersonNameCollector());
     }
 }

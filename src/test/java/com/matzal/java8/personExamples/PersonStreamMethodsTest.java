@@ -105,4 +105,13 @@ class PersonStreamMethodsTest {
         assertThat(namesByAge).containsKeys(12, 18, 23, 40)
                 .containsValues("Max", "Peter; Pamela", "David", "Patrick");
     }
+
+    @Test
+    void getAllNamesSeparatedByPipeTest() {
+        //given
+        //when
+        String names = personStreamMethods.getAllNamesUpperCase(samplePersons);
+        //then
+        assertThat(names).isEqualTo("MAX | PETER | PAMELA | DAVID | PATRICK");
+    }
 }
