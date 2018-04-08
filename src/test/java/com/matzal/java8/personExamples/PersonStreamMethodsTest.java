@@ -88,11 +88,21 @@ class PersonStreamMethodsTest {
     }
 
     @Test
-    void getNamesOfPersonsOlderThan() {
+    void getNamesOfPersonsOlderThanTest() {
         //given
         //when
         String olderThan23 = personStreamMethods.getNamesOfPersonsOlderThan(samplePersons, 23);
         //then
         assertThat(olderThan23).isEqualTo("Peter and Pamela and Patrick are older than 23.");
+    }
+
+    @Test
+    void getAgeMapWithNamesTest() {
+        //given
+        //when
+        Map<Integer, String> namesByAge = personStreamMethods.getAgeMapWithNames(samplePersons);
+        //then
+        assertThat(namesByAge).containsKeys(12, 18, 23, 40)
+                .containsValues("Max", "Peter; Pamela", "David", "Patrick");
     }
 }

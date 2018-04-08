@@ -43,4 +43,13 @@ public class PersonStreamMethods {
                 .map(Person::getName)
                 .collect(Collectors.joining(" and ", "", " are older than " + age + "."));
     }
+
+    Map<Integer, String> getAgeMapWithNames(List<Person> personList) {
+        return personList.stream()
+                .filter(Objects::nonNull)
+                .collect(Collectors.toMap(
+                        Person::getAge,
+                        Person::getName,
+                        (p1, p2) -> p1 + "; " + p2));
+    }
 }
