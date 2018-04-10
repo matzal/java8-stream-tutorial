@@ -1,5 +1,6 @@
 package com.matzal.java8.personExamples;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
@@ -113,5 +114,41 @@ class PersonStreamMethodsTest {
         String names = personStreamMethods.getAllNamesUpperCase(samplePersons);
         //then
         assertThat(names).isEqualTo("MAX | PETER | PAMELA | DAVID | PATRICK");
+    }
+
+    @Test
+    void getOldestPersonTest() {
+        //given
+        //when
+        Person oldestPerson = personStreamMethods.getOldestPerson(samplePersons);
+        //then
+        assertThat(oldestPerson.getName()).isEqualTo("Patrick");
+    }
+
+    @Test
+    void getOldestPersonTest_emptyList() {
+        //given
+        List<Person> emptyPersonList = Collections.emptyList();
+        //when
+        //then
+        Assertions.assertThrows(IllegalArgumentException.class, () -> personStreamMethods.getOldestPerson(emptyPersonList));
+    }
+
+    @Test
+    void getYoungestPersonTest() {
+        //given
+        //when
+        Person youngestPerson = personStreamMethods.getYoungestPerson(samplePersons);
+        //then
+        assertThat(youngestPerson.getName()).isEqualTo("David");
+    }
+
+    @Test
+    void getYoungestPersonTest_emptyList() {
+        //given
+        List<Person> emptyPersonList = Collections.emptyList();
+        //when
+        //then
+        Assertions.assertThrows(IllegalArgumentException.class, () -> personStreamMethods.getYoungestPerson(emptyPersonList));
     }
 }

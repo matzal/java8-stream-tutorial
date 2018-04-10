@@ -12,7 +12,7 @@ public class PersonStreamMethods {
             Collector.of(
                     () -> new StringJoiner(" | "),
                     (j, p) -> j.add(p.getName().toUpperCase()),
-                    (j1, j2) -> j1.merge(j2),
+                    StringJoiner::merge,
                     StringJoiner::toString);
 
     private Collector<Person, StringJoiner, String> getPersonNameCollector() {
@@ -66,5 +66,19 @@ public class PersonStreamMethods {
         return personList.stream()
                 .filter(Objects::nonNull)
                 .collect(getPersonNameCollector());
+    }
+
+    Person getOldestPerson(List<Person> personList) throws IllegalArgumentException {
+        return personList.stream()
+                .filter(Objects::nonNull)
+                .reduce((p1, p2) -> p1.getAge() > p2.getAge() ? p1 : p2)
+                .orElseThrow(IllegalArgumentException::new);
+    }
+
+    Person getYoungestPerson(List<Person> personList) throws IllegalArgumentException {
+        return personList.stream()
+                .filter(Objects::nonNull)
+                .reduce((p1, p2) -> p1.getAge() < p2.getAge() ? p1 : p2)
+                .orElseThrow(IllegalArgumentException::new);
     }
 }
